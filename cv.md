@@ -27,3 +27,28 @@ I am 23 years old. I studied to be a software engineer. But during my university
 
 ---
 
+### Code Example:
+
+```js
+function getFactorial(n){
+  let result = 1;
+  while(n>0){
+    result *= n;
+    n--;
+  }
+  return result;
+}
+```
+---
+
+### Courses:
+* CS50
+* [Современный учебник JavaScript](https://learn.javascript.ru/)
+* Sololearn (HTML & CSS)
+
+---
+
+### Languages:
+
+* Russian: Native
+* English: A1 (A2 in process)  
