@@ -5,7 +5,7 @@
 ### Contact Info:
 
 * **GitHub:** [Giotu](https://github.com/Giotu)
-* **Telegram:** [Aliaksei Bliudnik](t.me/FullUnsk1ll)
+* **Telegram:** [Aliaksei Bliudnik](https://t.me/FullUnsk1ll)
 * **Discord:** DreamWeaver#7330
 
 ---
