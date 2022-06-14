@@ -14,7 +14,6 @@ html {
   font-weight: 700;
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -33,6 +32,7 @@ body {
 .header {
   border: 1px solid red;
   background-color: #000;
+  height: 100px;
 }
 
 
@@ -49,6 +49,7 @@ body {
   line-height: 50px;
   text-decoration: none;
   color: #fff;
+  font-size: 20px;
   transition: .3s;
 }
 
@@ -69,11 +70,12 @@ body {
   font-size: 20px;
 }
 
-.section-title{
+.section-title {
   font-weight: 400;
 }
 
 .section-subtitle {
+  line-height: 1.5;
   opacity: 0.8;
 }
 
@@ -107,11 +109,6 @@ body {
   opacity: 0.6;
 }
 
-.footer {
-  border: 1px solid red;
-  background-color: #d5d5d7;
-}
-
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -123,39 +120,77 @@ body {
   justify-content: space-around;
 }
 
-.section-item{
-  padding: 20px ;
+.section-item {
+  padding: 20px;
 }
 
-.section-item span.font-a-we-some{
+.section-item span.font-a-we-some {
   font-family: Roboto;
   font-weight: 400;
   padding-left: 10px;
   opacity: 0.8;
 }
 
-.pre{
-  padding: 0;
-  margin: 0;
-}
-
-.pre{
+.pre {
   opacity: 0.7;
 }
 
-.section-list{
+.section-list {
   display: flex;
   flex-direction: column;
   padding-inline-start: 0px;
 }
 
-.info-contact{
+.info-contact {
   padding-left: 20px;
   font-family: Roboto;
   text-decoration: none;
 }
 
-a.info-contact:hover{
-  text-decoration:underline;
+a.info-contact:hover {
+  text-decoration: underline;
   transition: 0.9s;
+}
+
+.footer {
+  border: 1px solid red;
+  background-color: #000;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.year-and-github{
+  padding: 20px;
+}
+
+a.link-image-github {
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.footer-span {
+  padding-left: 10px;
+  font-family: Roboto;
+  color: #fff;
+}
+
+.footer-rss {
+  background: #fff;
+  background-image: url(/assets/img/rs_school.svg);
+  width: 121px;
+  height: 45px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
