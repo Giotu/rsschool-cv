@@ -81,7 +81,7 @@ body {
   padding: 10px 5px;
   display: flex;
   justify-content: space-around;
-  width: 650px;
+  width: 50%;
   align-items: center;
   margin: auto;
   border-bottom: 5px solid rgba(0, 0, 0, 0.76);
@@ -115,7 +115,6 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  min-width: 50px;
 }
 
 .container-section {
@@ -124,6 +123,19 @@ body {
   justify-content: space-around;
 }
 
+.section-item{
+  padding: 10px ;
+}
+
 .section-item span{
+  opacity: 0.7;
+}
+
+.pre{
+  padding: 0;
+  margin: 0;
+}
+
+.pre{
   opacity: 0.7;
 }
