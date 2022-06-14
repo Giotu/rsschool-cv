@@ -1,0 +1,195 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../assets/fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.header {
+  background-color: #000;
+  height: 100px;
+}
+
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 10px 20px;
+  margin: 0px 5px;
+  line-height: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: .3s;
+}
+
+.nav-link:hover {
+  background: #fff;
+  color: #000;
+  border-radius: 15px;
+}
+
+.section {
+  width: 45%;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.76);
+  font-size: 20px;
+}
+
+.section-title {
+  font-weight: 400;
+}
+
+.section-subtitle {
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.section-profile {
+  padding: 40px 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  align-items: center;
+  margin: auto;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.76);
+}
+
+.profile-avatar {
+  width: 200px;
+  border-radius: 100px;
+}
+
+.profile-name {
+  text-align: center;
+}
+
+.profile-title {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.profile-subtitle {
+  font-size: 22px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section-item {
+  padding: 20px;
+}
+
+.section-item span.font-a-we-some {
+  font-family: Roboto;
+  font-weight: 400;
+  padding-left: 10px;
+  opacity: 0.8;
+}
+
+.pre {
+  opacity: 0.7;
+}
+
+.section-list {
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0px;
+}
+
+.info-contact {
+  padding-left: 20px;
+  font-family: Roboto;
+  text-decoration: none;
+}
+
+a.info-contact:hover, .a-section-project:hover {
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  transition: 0.9s;
+}
+
+.a-section-project{
+  text-decoration: none;
+}
+
+
+.footer {
+  background-color: #000;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.year-and-github{
+  padding: 20px;
+}
+
+a.link-image-github {
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.footer-span {
+  padding-left: 10px;
+  font-family: Roboto;
+  color: #fff;
+}
+
+.footer-rss {
+  background: #fff;
+  background-image: url(../assets/img/rs_school.svg);
+  width: 121px;
+  height: 45px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
