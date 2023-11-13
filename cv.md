@@ -2,7 +2,7 @@
 
 ---
 
-### Contact Info
+### Contact Info:
 
 - **Discord:** dyraleika
 - **Github:** [Giotu](https://github.com/Giotu)
