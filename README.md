@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://giotu.github.io/rsschool-cv/cv
