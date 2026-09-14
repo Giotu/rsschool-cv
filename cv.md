@@ -20,6 +20,8 @@ I am 25 years old. I want to be a frontend developer.
 
 - HTML5
 - CSS3
+- JS
+- React
 - Git/GitHub
 
 ---
