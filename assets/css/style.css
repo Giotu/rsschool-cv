@@ -19,6 +19,7 @@
   --color-primary: #8eb9fc;
   --color-secondary: #274dea;
   --color-text-light: #ebffdc;
+  --container-max-width: 1200px;
 }
 
 html {
@@ -27,10 +28,16 @@ html {
 
 body {
   font-family: "Manrope", system-ui, sans-serif;
+  background-color: var(--color-primary);
 }
 
 ul {
   list-style: none;
+}
+
+.container {
+  width: min(100% - 2rem, var(--container-max-width));
+  margin-inline: auto;
 }
 
 .header {
