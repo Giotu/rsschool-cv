@@ -95,7 +95,9 @@ ul {
 .about-me,
 .contacts,
 .code,
-.projects {
+.projects,
+.lang,
+.education {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -105,7 +107,8 @@ ul {
 
 .skills__list,
 .contacts__list,
-.projects__list {
+.projects__list,
+.lang__list {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
