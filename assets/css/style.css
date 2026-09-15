@@ -16,7 +16,7 @@
 
 :root {
   --font-size-default: 1.25rem;
-  --color-primary: #8eb9fc;
+  --color-primary: #a9c2ea;
   --color-secondary: #274dea;
   --color-text-light: #ebffdc;
   --container-max-width: 1200px;
@@ -56,4 +56,26 @@ ul {
   display: block;
   text-decoration: none;
   padding: 0.5rem 1rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  align-items: center;
+  padding-block: 4rem;
+  border-bottom: 1px solid rgb(39 77 234 / 20%);
+}
+
+.hero__avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
