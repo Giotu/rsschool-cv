@@ -113,3 +113,15 @@ ul {
   flex-direction: column;
   gap: 0.5rem;
 }
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 2rem;
+}
+
+.footer__item img {
+  width: 100px;
+  height: auto;
+}
