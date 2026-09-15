@@ -94,7 +94,8 @@ ul {
 .skills,
 .about-me,
 .contacts,
-.code {
+.code,
+.projects {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -103,7 +104,8 @@ ul {
 }
 
 .skills__list,
-.contacts__list {
+.contacts__list,
+.projects__list {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
