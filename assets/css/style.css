@@ -14,6 +14,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 :root {
   --font-size-default: 1.25rem;
   --color-primary: #a9c2ea;
@@ -78,4 +82,28 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.cv-sections {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem 4rem;
+  padding-block: 3rem;
+}
+
+.skills,
+.about-me,
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-bottom: 1px solid rgb(39 77 234 / 20%);
+  padding-bottom: 2rem;
+}
+
+.skills__list,
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
