@@ -1,12 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<h1>Hello World!</h1>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">Education</a>
+            </li>
+            <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+            <li class="nav__item"><a href="#lang" class="nav__link">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="hero">
+          <img class="hero__avatar" src="assets/images/avatar.webp" alt="avatar" />
+
+          <div class="hero__content">
+            <h1 class="hero__title">Aliaksei Bliudnik</h1>
+            <p class="hero__subtitle">Junior Frontend Developer</p>
+          </div>
+        </section>
+        <div class="cv-sections">
+          <section class="skills" id="skills">
+            <h2 class="title">Skills</h2>
+            <ul class="skills__list">
+              <li class="skills__item">Web-development: HTML5, CSS3, JavaScript</li>
+              <li class="skills__item">Frameworks: React, Vue</li>
+              <li class="skills__item">Version Control: Git</li>
+            </ul>
+          </section>
+          <section class="about-me">
+            <h2 class="title">About me</h2>
+            <p>
+              I am 25 years old. I want to try myself in something new. I chose frontend.
+              Now I have a lot of free time, so all efforts will go to studies. I really
+              want to become a frontend developer.
+            </p>
+          </section>
+          <section class="contacts" id="contacts">
+            <h2 class="title">Contacts</h2>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <a
+                  href="https://github.com/Giotu"
+                  class="contacts__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </li>
+              <li class="contacts__item">
+                <a
+                  href="https://discord.com/users/531588743627407361"
+                  class="contacts__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Discord</a
+                >
+              </li>
+              <li class="contacts__item">
+                <a
+                  href="https://t.me/FullUnsk1ll"
+                  class="contacts__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Telegram</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="code">
+            <h2 class="title">Code</h2>
+            <pre><code>function getFactorial(n) {
+  let result = 1;
+
+  while (n > 0) {
+    result *= n;
+    n--;
+  }
+
+  return result;
+}</code></pre>
+          </section>
+          <section class="projects" id="projects">
+            <h2 class="title">Projects</h2>
+            <ul class="projects__list">
+              <li class="projects__item">
+                <a
+                  href="https://task-modsen-shop.netlify.app/"
+                  class="projects__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Modsen Shop</a
+                >
+              </li>
+              <li class="projects__item">
+                <a
+                  href="https://rolling-scopes-school.github.io/giotu-JSFE2024Q4/christmas-shop/"
+                  class="projects__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Christmas shop</a
+                >
+              </li>
+              <li class="projects__item">
+                <a
+                  href="https://rolling-scopes-school.github.io/giotu-JSFE2023Q4/nonograms/"
+                  class="projects__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Nonograms</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="lang" id="lang">
+            <h2 class="title">Languages</h2>
+            <ul class="lang__list">
+              <li class="lang__item">Russian: Native</li>
+              <li class="lang__item">English: A2</li>
+            </ul>
+          </section>
+          <section class="education" id="education">
+            <h2 class="title">Education</h2>
+            <p>Baranovichi State University</p>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="https://github.com/Giotu" target="_blank" rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </li>
+          <li class="footer__item">© 2026 Aliaksei Bliudnik</li>
+          <li class="footer__item">
+            <a
+              href="https://rs.school/courses/javascript"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="assets/images/rs-school-logo.svg" alt="logo"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>

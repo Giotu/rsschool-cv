@@ -4,7 +4,7 @@
 
 ### Contact Info:
 
-- **Discord:** dyraleika
+- **Discord:** giotuell
 - **Github:** [Giotu](https://github.com/Giotu)
 - **Telegram:** [Aleksey Bliudnik](https://t.me/FullUnsk1ll)
 
@@ -20,6 +20,8 @@ I am 25 years old. I want to be a frontend developer.
 
 - HTML5
 - CSS3
+- JS
+- React
 - Git/GitHub
 
 ---
