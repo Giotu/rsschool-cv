@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-Variable.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --font-size-default: 1.25rem;
+  --color-primary: #a9c2ea;
+  --color-secondary: #274dea;
+  --color-text-light: #ebffdc;
+  --container-max-width: 1200px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", system-ui, sans-serif;
+  background-color: var(--color-primary);
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: min(100% - 2rem, var(--container-max-width));
+  margin-inline: auto;
+}
+
+.header {
+  background: var(--color-secondary);
+  padding: 1.5rem 2rem;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__link {
+  color: var(--color-text-light);
+  font-size: var(--font-size-default);
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  align-items: center;
+  padding-block: 4rem;
+  border-bottom: 1px solid rgb(39 77 234 / 20%);
+}
+
+.hero__avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cv-sections {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem 4rem;
+  padding-block: 3rem;
+}
+
+.skills,
+.about-me,
+.contacts,
+.code,
+.projects,
+.lang,
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-bottom: 1px solid rgb(39 77 234 / 20%);
+  padding-bottom: 2rem;
+}
+
+.skills__list,
+.contacts__list,
+.projects__list,
+.lang__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 2rem;
+}
+
+.footer__item img {
+  width: 100px;
+  height: auto;
+}
