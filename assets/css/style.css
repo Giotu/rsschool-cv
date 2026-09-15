@@ -2,12 +2,39 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-size-default: 1.25rem;
+  --color-primary: #8eb9fc;
+  --color-secondary: #274dea;
+  --color-text-light: #ebffdc;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  margin: 0;
+ul {
+  list-style: none;
+}
+
+.header {
+  background: var(--color-secondary);
+  padding: 1.5rem 2rem;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__link {
+  color: var(--color-text-light);
+  font-size: var(--font-size-default);
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
